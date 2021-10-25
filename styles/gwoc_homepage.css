@@ -1,0 +1,469 @@
+*{
+    margin: 0px;
+
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px black solid;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    stroke: #FF6701 1px;
+    background-color: white;
+    box-shadow: 0 0 50px#FF7518 ;
+    
+}
+
+.nav-content{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+
+
+.nav-content-topic{
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+    transition: 0.5s;
+}
+
+#home:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+}
+
+.nav-content-topic-about{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-content-topic-about:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+
+.nav-content-topic-about-dec{
+    transition: 0.5s;
+}
+
+.nav-content-topic-about-dec:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+}
+
+#contact{
+    transition: 0.5s;
+}
+
+#contact:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+}
+
+#team{
+    transition: 0.5s;
+}
+
+#team:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+}
+
+#event{
+    transition: 0.5s;
+}
+
+#event:hover{
+    color: #FF6701;
+    transform: scale(1.2);
+}
+
+.nav-content-topic-button{
+    transition: 0.2s;
+}
+
+.nav-content-topic-button:hover{
+    color: #FF6701;
+    background-color: white;
+}
+
+.nav-content-topic-button{
+     font-size: 1.3rem; 
+     padding: 0.7rem;
+     border-radius: 20px;
+     background-color: #FF6701;
+     color: white;
+    /* height: 3rem; 
+    margin-top: 1rem; */
+}
+
+.logo{
+    margin-top: 1.5rem;
+}
+
+/*Home page Design*/
+
+.home-page-design-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    margin-top: -10rem;
+}
+
+/*About Section*/
+.about-girlscript{
+    background-color: #FF7A19;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    
+}
+
+.about-gwoc{
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-girlscript-header{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.about-girlscript-image{
+    padding-bottom: 5rem;
+}
+.about-girlscript-content{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-gwoc-header{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.about-gwoc-image{
+    padding-bottom: 2rem;
+    margin-top: -5rem;
+}
+.about-gwoc-content{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contruibution */
+.contruibution{
+    padding: 6rem;
+}
+.contruibution-heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+.contruibution-content{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 2.2rem;
+}
+
+/* Contruibution Content */
+
+.about-contruibution{
+    background-color: #FFF4E8;
+}
+
+.about-document-contruibution{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* left: 33%; */
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.about-document-contruibution-heading{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: #FF7A19;
+}
+
+.about-document-contruibution-content-content{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.about-document-contruibution-image{
+    transition: 0.5s;
+
+}
+.about-document-contruibution-image:hover{
+    transform: scale(1.2);
+    
+}
+
+.about-video-contruibution{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.about-video-contruibution-heading{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: #FF7A19;
+}
+
+.about-video-contruibution-content-content{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.about-video-contruibution-image{
+    transition: 0.5s;
+
+}
+.about-video-contruibution-image:hover{
+    transform: scale(1.2);
+    
+}
+
+.about-audio-contruibution{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.about-audio-contruibution-heading{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: #FF7A19;
+}
+
+.about-audio-contruibution-content-content{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.about-audio-contruibution-image{
+    transition: 0.5s;
+
+}
+.about-audio-contruibution-image:hover{
+    transform: scale(1.2);
+    
+}
+
+/* Role Cards */
+.role-section-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.role-section{
+    padding-top: 4rem;
+}
+.role-cards{
+    display: flex;
+    text-align: center;
+    
+}
+.contruibuter-role-card{
+    text-align: center;
+    background-color: #FF7A19;
+    margin: 140px;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgb(53, 53, 53);
+}
+
+.contruibuter-role-card-heading{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.contruibuter-role-card-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+
+
+.mentor-role-card-heading{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.mentor-role-card{
+    background-color: #FF7A19;
+    margin: 140px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgb(53, 53, 53);
+}
+
+.mentor-role-card-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+
+.register-button{
+    margin: 10px;
+    text-align: center;
+    width: 88%;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #FF7A19;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+
+}
+.register-button:hover{
+    background-color: white;
+    color: #FF7A19;
+    border: 2px #FF7A19 solid;
+}
+
+/* Sponsers Section */
+
+.sponsers{
+    background-color: #FFF4E8;
+    padding-bottom: 6rem;
+}
+
+.primary-sponsers{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.othersponsers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponser-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding: 4rem;
+}
+
+.primary-sponser-image{
+    border: 0px rgb(53, 52, 52) solid;
+    width: 15%;
+    margin: auto;
+    box-shadow: 0 0 30px rgb(53, 53, 53);
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+.primarysponsers-heading{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.secondary-sponser-heading{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.secondary-sponser-image{
+    border: 0px rgb(53, 52, 52) solid;
+    margin: auto;
+    box-shadow: 0 0 30px rgb(53, 53, 53);
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+.tertiary-sponser-heading{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.tertiary-sponser-image{
+    border: 0px rgb(53, 52, 52) solid;
+    margin: auto;
+    box-shadow: 0 0 30px rgb(53, 53, 53);
+    border-radius: 10px;
+    padding: 1rem;
+}
