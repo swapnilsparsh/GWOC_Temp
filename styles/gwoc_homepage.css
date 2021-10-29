@@ -164,13 +164,13 @@
 .about-girlscript{
     background-color: #FF7A19;
     color: white;
-    padding: 5rem 2rem 2rem 5rem;
+    padding: 2rem;
     width: 100%;
 }
 
 .about-gwoc{
     background-color: white;
-    padding: 5rem 2rem 2rem 5rem;
+    padding: 2rem;
     width: 100%;
 }
 
@@ -510,4 +510,24 @@
     box-shadow: 0 0 30px rgb(53, 53, 53);
     border-radius: 10px;
     padding: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .role-cards{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    .primary-sponser-image{
+        width: 20%;
+        margin: auto;
+        box-shadow: 0 0 30px;
+        border-radius: 10px;
+        /* padding-bottom: 1rem; */
+    }
+    .about-video-contruibution-image{
+        padding-right: 1rem;
+    }
+    
 }
